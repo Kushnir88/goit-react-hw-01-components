@@ -1,9 +1,7 @@
 .item {
     display: flex;
-    
     gap: 10px;
-   
-      list-style:none;
+    list-style:none;
       width: 20%;
       box-shadow: 2px 1px 6px rgba(79, 81, 132, 0.08), 2px 1px 6px rgba(23, 33, 213, 0.16), 2px 1px 6px rgba(34, 41, 176, 0.08);
       border-radius: 4px 4px 4px 4px;
@@ -11,15 +9,24 @@
       
      
     }
+
     .status{
-  
+       
     }
    
     .offline{
-  color:red;
+    display: block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
     }
     .online{
-  color:green;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: green;
     }
   
     .avatar{
